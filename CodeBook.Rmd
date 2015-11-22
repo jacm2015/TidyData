@@ -1,0 +1,40 @@
+---
+title: "CodeBook"
+output: html_document
+---
+
+This is Code Book that describes:
+
+  * The experimental data used and summary choices made.
+  * Variables contained in the tidy data.
+
+    
+
+## Experimental data
+
+Human Activity Recognition Using Smartphones Data Set.
+
+
+### Data Source
+
+Data is related to wearable compunting experiments. This  article could be checked for further details. 
+<http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/>
+
+The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+
+<http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones> 
+
+
+Data for the project are from 
+
+<https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
+
+
+
+
+## Tidy data file (tidy.txt)
+
+
+From the data  source, we have extracted  the measurements on the mean and standard deviation for each measurement and created a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+Names for variables (columns names) has been kept as there are on  the original v_features.txt file with no changes.
